@@ -34,7 +34,7 @@ function App() {
   return (
     <>
       <div>
-        <div className='h-screen bg-cover' style={{backgroundImage: "url(" + bg + ")"}}>
+        <div className='h-screen bg-cover bg-primary'>
           <div className='flex flex-col justify-between h-full p-10 bg-slate-900 bg-opacity-20'>
             <div className='navbar flex justify-between items-center'>
               <div className='flex items-center text-white gap-4'>
@@ -69,12 +69,12 @@ function App() {
                       <p className='text-sm'>get your favorites flowers</p>
                     </div>
                     <div>
-                      <ArrowForwardCircleOutline
+                      {/* <ArrowForwardCircleOutline
                         color={'#00000'}
                         height="45px"
                         width="45px"
                         beat={beatArrow}
-                      />
+                      /> */}
                     </div>
                   </div>
                 </div>

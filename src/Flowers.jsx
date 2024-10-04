@@ -1,7 +1,5 @@
 import './App.css'
 import logo from './assets/lotus-flower-svgrepo-com.svg'
-import { ArrowForwardCircleOutline } from 'react-ionicons'
-import { useState } from 'react'
 
 function Flowers() {
   return (

@@ -6,7 +6,6 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Root from './routes/root.jsx';
 import Flowers from './Flowers.jsx';
 
 const router = createBrowserRouter([
