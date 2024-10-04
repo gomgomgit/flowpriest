@@ -33,7 +33,7 @@ function App() {
   return (
     <>
       <div>
-        <section className='h-screen bg-cover bg-primary' style={{backgroundImage: "url('/src/assets/base-backround.jpg')"}}>
+        <section className='h-screen bg-cover bg-primary'>
           <div className='flex flex-col justify-between h-full p-10 bg-slate-900 bg-opacity-20'>
             <div className='navbar flex justify-between items-center'>
               <div className='flex items-center text-white gap-4'>
