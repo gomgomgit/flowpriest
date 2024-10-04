@@ -69,12 +69,12 @@ function App() {
                       <p className='text-sm'>get your favorites flowers</p>
                     </div>
                     <div>
-                      {/* <ArrowForwardCircleOutline
+                      <ArrowForwardCircleOutline
                         color={'#00000'}
                         height="45px"
                         width="45px"
                         beat={beatArrow}
-                      /> */}
+                      />
                     </div>
                   </div>
                 </div>
