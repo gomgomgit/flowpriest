@@ -32,53 +32,51 @@ function App() {
   return (
     <>
       <div>
-        <div>
-          <div className='bg-primary bg-cover h-screen' style={{}}>
-            <div className='flex flex-col justify-between h-full p-10 bg-slate-900 bg-opacity-20'>
-              <div className='navbar flex justify-between items-center'>
-                <div className='flex items-center text-white gap-4'>
-                  <img className='h-10' src={logo} alt="" />
-                  <h1 className='text-lg font-bold'>FLOWPRIEST</h1>
-                </div>
-                <div className='text-white flex gap-8'>
-                  <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'>Home</p>
-                  <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'>Variations</p>
-                  <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'>Store</p>
-                  <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'>About</p>
-                  <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'>Contact</p>
-                </div>
-                <div className='bg-transparent hover:bg-slate-200 duration-300 text-lg text-white hover:text-orange-500 text-end rounded-full px-6 py-2 m-0 font-bold cursor-pointer'>
-                  <span>Get Started</span>
-                </div>
+        <div className='bg-primary h-screen bg-cover'>
+          <div className='flex flex-col justify-between h-full p-10 bg-slate-900 bg-opacity-20'>
+            <div className='navbar flex justify-between items-center'>
+              <div className='flex items-center text-white gap-4'>
+                <img className='h-10' src={logo} alt="" />
+                <h1 className='text-lg font-bold'>FLOWPRIEST</h1>
               </div>
-              <div className='flex justify-between items-end'>
-                <div className='text-8xl text-white'>
-                  <h2>GET YOUR</h2>
-                  <h2>FLOWERS</h2>
-                  <h2>BY OCCASIONS</h2>
-                </div>
-                <div>
-                  <div className='rounded-xl bg-slate-500/65 hover:bg-slate-400 duration-500 px-4 py-5 group cursor-pointer'
-                          onMouseEnter={() => setBeatArrow(true)}
-                          onMouseLeave={() => setBeatArrow(false)}>
-                    <div className='h-32 w-80 rounded-lg mb-2 bg-primary bg-center duration-500 bg-[length:350px] group-hover:bg-[length:450px]'/>
-                    <div className='text-white flex justify-between items-center'>
-                      <div>
-                        <h3 className='font-semibold text-xl'>See All Flowers</h3>
-                        <p className='text-sm'>get your favorites flowers</p>
-                      </div>
-                      <div>
-                        <ArrowForwardCircleOutline
-                          color={'#00000'}
-                          height="45px"
-                          width="45px"
-                          beat={beatArrow}
-                        />
-                      </div>
+              <div className='text-white flex gap-8'>
+                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'>Home</p>
+                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'>Variations</p>
+                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'>Store</p>
+                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'>About</p>
+                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'>Contact</p>
+              </div>
+              <div className='bg-transparent hover:bg-slate-200 duration-300 text-lg text-white hover:text-orange-500 text-end rounded-full px-6 py-2 m-0 font-bold cursor-pointer'>
+                <span>Get Started</span>
+              </div>
+            </div>
+            <div className='flex justify-between items-end'>
+              <div className='text-8xl text-white'>
+                <h2>GET YOUR</h2>
+                <h2>FLOWERS</h2>
+                <h2>BY OCCASIONS</h2>
+              </div>
+              <div>
+                <div className='rounded-xl bg-slate-500/65 hover:bg-slate-400 duration-500 px-4 py-5 group cursor-pointer'
+                        onMouseEnter={() => setBeatArrow(true)}
+                        onMouseLeave={() => setBeatArrow(false)}>
+                  <div className='h-32 w-80 rounded-lg mb-2 bg-primary bg-center duration-500 bg-[length:350px] group-hover:bg-[length:450px]'/>
+                  <div className='text-white flex justify-between items-center'>
+                    <div>
+                      <h3 className='font-semibold text-xl'>See All Flowers</h3>
+                      <p className='text-sm'>get your favorites flowers</p>
+                    </div>
+                    <div>
+                      <ArrowForwardCircleOutline
+                        color={'#00000'}
+                        height="45px"
+                        width="45px"
+                        beat={beatArrow}
+                      />
                     </div>
                   </div>
-                  <h2></h2>
                 </div>
+                <h2></h2>
               </div>
             </div>
           </div>
