@@ -1,0 +1,66 @@
+[
+    {
+      "name": "Cosmos",
+      "basic_information": "While many species of cosmos are native to Mexico, some varieties are native to the Western United States. All types of cosmos have delicate petals and lacy leaves. While their flowers look fragile, they make excellent cut flowers.",
+      "sun": "Full sun",
+      "soil_needs": "Well-draining",
+      "blooms_in": "Summer and fall",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2019/05/20_summer-cosmos.jpg"
+    },
+    {
+      "name": "Cornflower",
+      "basic_information": "Cornflowers often go by the name bachelor’s buttons since men once wore these flowers in their buttonholes to show they were ready to date. While blue flowers are the most common color, you can also find white, pink, and purple flowers.",
+      "sun": "Full sun",
+      "soil_needs": "Well-draining",
+      "blooms_in": "Summer",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2021/09/cornflowers-3432162_1280-1080x720.jpg"
+    },
+    {
+      "name": "Dahlia",
+      "basic_information": "Dahlias grow from tubers that you plant outside or start indoors in spring. While dahlias are annuals, you can dig up the tubers in the fall and replant them the following spring. There are over 40 species of dahlias and hundreds of varieties to choose from.",
+      "sun": "Full sun",
+      "soil_needs": "Well-draining, rich",
+      "blooms_in": "Summer",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2019/05/summer-dahlia.jpg"
+    },
+    {
+      "name": "Zinnia",
+      "basic_information": "There are twenty species and hundreds of cultivars of zinnias which lead to flowers of all colors. They’re fast-growing and considered one of the easiest flowers to grow by many gardeners. Just sprinkle some seeds and you’ll have a colorful patch within a few months.",
+      "sun": "Full sun",
+      "soil_needs": "Well-draining",
+      "blooms_in": "Summer",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2023/06/zinnia-gbcbfedd94_1280-1080x720.jpg"
+    },
+    {
+      "name": "Chrysanthemum",
+      "basic_information": "Many species of chrysanthemums are native to China, where they were cultivated as early as the 15th century BC. Over time, people discovered that chrysanthemums contain compounds called pyrethrins which are used as natural insecticides.",
+      "sun": "Full sun",
+      "soil_needs": "Well-draining",
+      "blooms_in": "Late summer to fall",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2021/09/chrysanthemum-5668882_1280-1080x720.jpg"
+    },
+    {
+      "name": "Celosia",
+      "basic_information": "There are three main types of celosia with very different looking flowers. Plume has pointed, feathery blooms, cockscomb has flowers that resemble brain corral, and wheat has blooms that resemble the namesake grain.",
+      "sun": "Full sun",
+      "soil_needs": "Well-draining and fertile",
+      "blooms_in": "Late summer to fall",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2021/09/celosia-7299458_1280-1080x720.jpg"
+    },
+    {
+      "name": "Larkspur",
+      "basic_information": "Larkspur plants can grow up to four feet tall, so they benefit from staking. The plants require a cool period during their early stages of growth to produce flowers. That means you should plant them out in the spring rather than wait until summer.",
+      "sun": "Full sun or a bit of shade",
+      "soil_needs": "Well-drained",
+      "blooms_in": "Late spring to summer",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2023/06/larkspur-170234_1280-1080x791.jpg"
+    },
+    {
+      "name": "Gladiolus",
+      "basic_information": "Gladiolus flowers, lovingly referred to as glads, grow from a type of bulb-like structure known as a corm. Once you plant a corm, you’ll be rewarded with tall flower spikes year after year. However, if you live in USDA hardiness zone 6 or below, you should mulch your corms to protect them from the cold.",
+      "sun": "Full sun or a bit of shade",
+      "soil_needs": "Well-drained, sandy or loamy",
+      "blooms_in": "Late spring and summer",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2021/09/flowers-5401735_1280-1080x720.jpg"
+    }
+]
