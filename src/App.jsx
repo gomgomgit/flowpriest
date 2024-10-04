@@ -83,10 +83,10 @@ function App() {
             </div>
           </div>
         </div>
-        <div>
-          <div className='grid grid-cols-2 gap-6 p-6'>
+        <div className='p-12 bg-yellow-50'>
+          <div className='grid grid-cols-3 gap-12'>
             {dataFlowers.map((flower) => (
-              <div className='h-[50vh] relative group bg-cover' style={{backgroundImage: "url(" + flower.image + ")"}} key={flower.id}>
+              <div className='h-[50vh] relative group bg-cover cursor-pointer' style={{backgroundImage: "url(" + flower.image + ")"}} key={flower.id}>
                 <div className='bg-yellow-100 opacity-0 absolute inset-0 group-hover:opacity-80 duration-300'>
                 </div>
                 <div className='absolute inset-0 opacity-0 group-hover:opacity-100 flex flex-col justify-end p-8 duration-700'>

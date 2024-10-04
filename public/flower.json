@@ -62,5 +62,77 @@
       "soil_needs": "Well-drained, sandy or loamy",
       "blooms_in": "Late spring and summer",
       "image": "https://bouqs.com/blog/wp-content/uploads/2021/09/flowers-5401735_1280-1080x720.jpg"
+    },
+    {
+      "name": "Craspedia",
+      "basic_information": "Also known as drumsticks or Billy buttons, craspedia produces yellow, spherical blooms. The flowers work well in fresh flower arrangements and dry extremely well.",
+      "sun": "Full sun",
+      "soil_needs": "Well-drained",
+      "blooms_in": "Summer",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2021/09/craspedia-2482999_1280-1080x716.jpg"
+    },
+    {
+      "name": "Gomphrena",
+      "basic_information": "Gomphrena, also known as globe amaranth, provides a continuous supply of small, round flowers from summer until frost. The flowers dry well, so they’re popular flowers for dried bouquets.",
+      "sun": "Full sun",
+      "soil_needs": "Well-drained",
+      "blooms_in": "Summer and fall",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2021/09/gomphrena-globosa-17803_1280-1080x709.jpg"
+    },
+    {
+      "name": "Sunflower",
+      "basic_information": "There are hundreds of varieties of sunflowers that include branching and single-stalk types, three-foot tall dwarf plants, and 15-foot tall giants. That means you can find a sunflower for patio pots as well as open gardens. Many sunflowers rotate their flowers to follow the sun, a phenomenon known as heliotropism.",
+      "sun": "Full sun to part shade",
+      "soil_needs": "Well-drained",
+      "blooms_in": "Summer",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2021/05/sunflower-fields-1080x720.jpg"
+    },
+    {
+      "name": "Gerbera Daisy",
+      "basic_information": "Although the gerbera daisy is a tender perennial, it’s grown as an annual in most of the United States. It produces large, colorful blooms that work well in flower arrangements. Since the plant remains quite small, it works well in containers and window boxes.",
+      "sun": "Full sun to part shade",
+      "soil_needs": "Well-drained",
+      "blooms_in": "Summer",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2021/09/gerbera-5615074_1280-1080x718.jpg"
+    },
+    {
+      "name": "Snapdragon",
+      "basic_information": "If you plant your snapdragons so they are established by the fall, they may be able to survive light frosts and cold temperatures. Since there are so many types and forms of snapdragons, pay attention to the type you grow. Tall plants with long flower spikes are the best choice for cut flowers.",
+      "sun": "Full sun to part shade",
+      "soil_needs": "Well-drained, rich",
+      "blooms_in": "Spring and fall",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2021/09/snapdragon-20809_1280-1080x824.jpg"
+    },
+    {
+      "name": "Bells of Ireland",
+      "basic_information": "One of the most beautiful green flowers, bells of Ireland has a tall stalk covered with funnel-shaped flowers. Since it grows tall and top-heavy, it benefits from staking. Despite its name, the plant is native to areas around Turkey and Syria.",
+      "sun": "Full sun to part shade",
+      "soil_needs": "Well-drained, moist",
+      "blooms_in": "Spring and early fall",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2021/09/bells-of-ireland.jpeg"
+    },
+    {
+      "name": "Stock",
+      "basic_information": "Stock is a quick-growing annual that thrives in cool weather. With vintage-looking flowers available in a wide range of colors, stock is an excellent choice for cut flower gardens. Start seeds in mid to late summer for a fall harvest.",
+      "sun": "Full sun",
+      "soil_needs": "Well-drained",
+      "blooms_in": "Spring and fall",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2021/09/stock-flowers.jpeg"
+    },
+    {
+      "name": "Strawflower",
+      "basic_information": "Strawflower resembles a daisy, but it has flowers the texture of straw. It’s an extremely heat tolerant plant so it’s a great choice for areas with hot, dry summers.",
+      "sun": "Full sun",
+      "soil_needs": "Well-drained",
+      "blooms_in": "Summer",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2021/09/strawflower-362280_1280.jpg"
+    },
+    {
+      "name": "Nigella",
+      "basic_information": "Nigella produces striking flowers and large, alluring seed pods. It’s also known as love-in-a-mist due to the lacy foliage that surrounds the flowers. The flowers are edible and have a taste reminiscent of cumin.",
+      "sun": "Full sun",
+      "soil_needs": "Well-drained",
+      "blooms_in": "Spring and early summer",
+      "image": "https://bouqs.com/blog/wp-content/uploads/2021/09/virgin-in-the-green-8055747_1280-1080x720.jpg"
     }
 ]
