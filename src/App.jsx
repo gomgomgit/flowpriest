@@ -1,6 +1,5 @@
 import './App.css'
 import logo from './assets/lotus-flower-svgrepo-com.svg'
-import bg from './assets/base-backround.jpg'
 
 import { ArrowForwardCircleOutline } from 'react-ionicons'
 import { useEffect, useState } from 'react'
@@ -34,7 +33,7 @@ function App() {
   return (
     <>
       <div>
-        <div className='h-screen bg-cover bg-primary'>
+        <section className='h-screen bg-cover bg-primary' style={{backgroundImage: "url('/src/assets/base-backround.jpg')"}}>
           <div className='flex flex-col justify-between h-full p-10 bg-slate-900 bg-opacity-20'>
             <div className='navbar flex justify-between items-center'>
               <div className='flex items-center text-white gap-4'>
@@ -82,7 +81,7 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
+        </section>
         <div className='p-12 bg-yellow-50'>
           <div className='grid grid-cols-3 gap-12'>
             {dataFlowers.map((flower) => (
