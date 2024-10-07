@@ -22,25 +22,27 @@ function App() {
                 <h2>BY OCCASIONS</h2>
               </div>
               <div>
-                <div className='rounded-xl bg-slate-500/65 hover:bg-slate-400/80 hover:drop-shadow-lg duration-500 px-4 py-5 group cursor-pointer'
-                        onMouseEnter={() => setBeatArrow(true)}
-                        onMouseLeave={() => setBeatArrow(false)}>
-                  <div className='h-32 w-80 rounded-lg mb-2 bg-primary bg-center duration-500 bg-[length:350px] group-hover:bg-[length:450px]'/>
-                  <div className='text-white flex justify-between items-center'>
-                    <div>
-                      <h3 className='font-semibold text-xl'>See All Flowers</h3>
-                      <p className='text-sm'>get your favorites flowers</p>
-                    </div>
-                    <div>
-                      <ArrowForwardCircleOutline
-                        color={'#00000'}
-                        height="45px"
-                        width="45px"
-                        beat={beatArrow}
-                      />
+                <a href="/flowers">
+                  <div className='rounded-xl bg-slate-500/65 hover:bg-slate-400/80 hover:drop-shadow-lg duration-500 px-4 py-5 group cursor-pointer'
+                          onMouseEnter={() => setBeatArrow(true)}
+                          onMouseLeave={() => setBeatArrow(false)}>
+                    <div className='h-32 w-80 rounded-lg mb-2 bg-primary bg-center duration-500 bg-[length:350px] group-hover:bg-[length:450px]'/>
+                    <div className='text-white flex justify-between items-center'>
+                      <div>
+                        <h3 className='font-semibold text-xl'>See All Flowers</h3>
+                        <p className='text-sm'>get your favorites flowers</p>
+                      </div>
+                      <div>
+                        <ArrowForwardCircleOutline
+                          color={'#00000'}
+                          height="45px"
+                          width="45px"
+                          beat={beatArrow}
+                        />
+                      </div>
                     </div>
                   </div>
-                </div>
+                </a>
                 <h2></h2>
               </div>
             </div>
