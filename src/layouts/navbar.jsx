@@ -11,15 +11,15 @@ function Navbar({type}) {
             <h1 className='text-lg font-bold'>FLOWPRIEST</h1>
           </a>
         </div>
-        <div className='text-white flex gap-8'>
-          <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'><a href="/">Home</a></p>
-          <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'><a href="/flowers">Variations</a></p>
-          <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'><a href="/">Store</a></p>
-          <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'><a href="/">About</a></p>
-          <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'><a href="/">Contact</a></p>
+        <div className='text-white font-semibold flex gap-8'>
+          <p className='cursor-pointer border-b-2 border-transparent hover:border-amber-500 hover:text-amber-500 duration-300'><a href="/">Home</a></p>
+          <p className='cursor-pointer border-b-2 border-transparent hover:border-amber-500 hover:text-amber-500 duration-300'><a href="/flowers">Variations</a></p>
+          <p className='cursor-pointer border-b-2 border-transparent hover:border-amber-500 hover:text-amber-500 duration-300'><a href="/">Store</a></p>
+          <p className='cursor-pointer border-b-2 border-transparent hover:border-amber-500 hover:text-amber-500 duration-300'><a href="/">About</a></p>
+          <p className='cursor-pointer border-b-2 border-transparent hover:border-amber-500 hover:text-amber-500 duration-300'><a href="/">Contact</a></p>
         </div>
         <div className='bg-transparent hover:bg-slate-200 duration-300 text-lg text-white hover:text-amber-600 text-end rounded-full px-6 py-2 m-0 font-bold cursor-pointer'>
-          <span>Get Started</span>
+          <span>Get Bouquet</span>
         </div>
       </div>
     </div>

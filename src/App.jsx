@@ -49,7 +49,7 @@ function App() {
         <div className='py-20 px-72 bg-emerald-600 text-white font font-medium text-center'>
           <h4 className='text-4xl font-playfair leading-snug'>We blend nature's beauty with artistic flair to bring you the finest blooms for your special moments. Explore our collections and find the perfect arrangement for every occasion</h4>
         </div>
-        <div className='p-12 bg-yellow-50 flex gap-20 items-center'>
+        <div className='pl-16 pr-12 py-16 bg-yellow-50 flex gap-20 items-center justify-between'>
           <div className='font-medium'>
             <div>
               TYPE OF BOUQUET
@@ -59,19 +59,19 @@ function App() {
               <h3>bouquet flower</h3>
             </div>
             <div className='mt-4'>
-              <button className='py-4 px-8 bg-amber-500 rounded-lg text-white font-sans text-lg font-semibold hover:drop-shadow-xl hover:bg-amber-400 duration-300'>Get Bouquet</button>
+              <button className='py-4 pl-8 pr-12 bg-amber-500 rounded-e-full text-white font-sans text-lg font-semibold hover:drop-shadow-xl hover:bg-amber-400 duration-300'>Get Bouquet</button>
             </div>
           </div>
           <div className='flex gap-3'>
-            <div className='w-72 h-80 skew-x-6 hover:skew-y-3 hover:drop-shadow-xl duration-300 relative overflow-hidden'>
-              <div className='absolute -inset-6 hover:-skew-y-3 duration-300 -skew-x-6 bg-cover' style={{backgroundImage: 'url("https://cdn11.bigcommerce.com/s-lzx6le/images/stencil/1280x280/products/1241/2902/167398L__04164.1557610883.jpg?c=2")'}}>
+            <div className='w-64 h-80 skew-x-6 hover:skew-y-3 hover:drop-shadow-xl duration-300 relative overflow-hidden'>
+              <div className='absolute -inset-6 hover:-skew-y-3 duration-300 -skew-x-6 bg-cover' style={{backgroundImage: 'url("https://m.media-amazon.com/images/I/8123WJ5r2gL._AC_UF894,1000_QL80_.jpg")'}}>
               </div>
             </div>
-            <div className='w-72 h-80 skew-x-6 hover:skew-y-3 hover:drop-shadow-xl duration-300 relative overflow-hidden'>
-              <div className='absolute -inset-6 hover:-skew-y-3 duration-300 -skew-x-6 bg-cover' style={{backgroundImage: 'url("https://cdn11.bigcommerce.com/s-lzx6le/images/stencil/1280x280/products/1241/2902/167398L__04164.1557610883.jpg?c=2")'}}>
+            <div className='w-64 h-80 skew-x-6 hover:skew-y-3 hover:drop-shadow-xl duration-300 relative overflow-hidden'>
+              <div className='absolute -inset-6 hover:-skew-y-3 duration-300 -skew-x-6 bg-cover' style={{backgroundImage: 'url("https://sevenrose.co.id/cdn/shop/products/WhatsAppImage2020-11-24at17.45.52.jpg")'}}>
               </div>
             </div>
-            <div className='w-72 h-80 skew-x-6 hover:skew-y-3 hover:drop-shadow-xl duration-300 relative overflow-hidden'>
+            <div className='w-64 h-80 skew-x-6 hover:skew-y-3 hover:drop-shadow-xl duration-300 relative overflow-hidden'>
               <div className='absolute -inset-6 hover:-skew-y-3 duration-300 -skew-x-6 bg-cover' style={{backgroundImage: 'url("https://cdn11.bigcommerce.com/s-lzx6le/images/stencil/1280x280/products/1241/2902/167398L__04164.1557610883.jpg?c=2")'}}>
               </div>
             </div>
