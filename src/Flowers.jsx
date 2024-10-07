@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css'
-import Navbar from './layouts/navabar'
+import Navbar from './layouts/navbar'
 
 function Flowers() {
   

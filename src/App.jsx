@@ -1,5 +1,6 @@
 import './App.css'
-import logo from './assets/lotus-flower-svgrepo-com.svg'
+// import logo from './assets/lotus-flower-svgrepo-com.svg'
+import Navbar from './layouts/navbar'
 
 import { ArrowForwardCircleOutline } from 'react-ionicons'
 import { useState } from 'react'
@@ -13,22 +14,7 @@ function App() {
       <div>
         <section className='h-screen bg-cover bg-primary'>
           <div className='flex flex-col justify-between h-full p-10 bg-slate-900 bg-opacity-20'>
-            <div className='navbar flex justify-between items-center'>
-              <div className='flex items-center text-white gap-4'>
-                <img className='h-10' src={logo} alt="" />
-                <h1 className='text-lg font-bold'>FLOWPRIEST</h1>
-              </div>
-              <div className='text-white flex gap-8'>
-                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'><a href="/flowers">Home</a></p>
-                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'><a href="/flowers">Variations</a></p>
-                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'><a href="/flowers">Store</a></p>
-                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'><a href="/flowers">About</a></p>
-                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'><a href="/flowers">Contact</a></p>
-              </div>
-              <div className='bg-transparent hover:bg-slate-200 duration-300 text-lg text-white hover:text-amber-600 text-end rounded-full px-6 py-2 m-0 font-bold cursor-pointer'>
-                <span>Get Started</span>
-              </div>
-            </div>
+            <Navbar type="transparent" />
             <div className='flex justify-between items-end'>
               <div className='text-8xl text-white font-playfair leading-tight'>
                 <h2>GET YOUR</h2>
