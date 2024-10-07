@@ -2,33 +2,11 @@ import './App.css'
 import logo from './assets/lotus-flower-svgrepo-com.svg'
 
 import { ArrowForwardCircleOutline } from 'react-ionicons'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 function App() {
 
   const [beatArrow, setBeatArrow] = useState(false)
-  const [dataFlowers, setDataFlowers] = useState([])
-
-  const getData=()=>{
-    fetch('flower.json',
-      {
-        headers : { 
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        }
-      }
-    ).then(function(response){
-        console.log(response)
-        return response.json();
-    }).then(function(myJson) {
-        console.log(myJson);
-        setDataFlowers(myJson)
-    });
-  }
-
-  useEffect(()=>{
-    getData()
-  },[])
 
   return (
     <>
@@ -41,24 +19,24 @@ function App() {
                 <h1 className='text-lg font-bold'>FLOWPRIEST</h1>
               </div>
               <div className='text-white flex gap-8'>
-                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'>Home</p>
-                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'>Variations</p>
-                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'>Store</p>
-                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'>About</p>
-                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'>Contact</p>
+                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'><a href="/flowers">Home</a></p>
+                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'><a href="/flowers">Variations</a></p>
+                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'><a href="/flowers">Store</a></p>
+                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'><a href="/flowers">About</a></p>
+                <p className='cursor-pointer border-b-2 border-transparent hover:border-white duration-300'><a href="/flowers">Contact</a></p>
               </div>
-              <div className='bg-transparent hover:bg-slate-200 duration-300 text-lg text-white hover:text-orange-500 text-end rounded-full px-6 py-2 m-0 font-bold cursor-pointer'>
+              <div className='bg-transparent hover:bg-slate-200 duration-300 text-lg text-white hover:text-amber-600 text-end rounded-full px-6 py-2 m-0 font-bold cursor-pointer'>
                 <span>Get Started</span>
               </div>
             </div>
             <div className='flex justify-between items-end'>
-              <div className='text-8xl text-white'>
+              <div className='text-8xl text-white font-playfair leading-tight'>
                 <h2>GET YOUR</h2>
-                <h2>FLOWERS</h2>
+                <h2>BOUQUET FLOWER</h2>
                 <h2>BY OCCASIONS</h2>
               </div>
               <div>
-                <div className='rounded-xl bg-slate-500/65 hover:bg-slate-400 duration-500 px-4 py-5 group cursor-pointer'
+                <div className='rounded-xl bg-slate-500/65 hover:bg-slate-400/80 hover:drop-shadow-lg duration-500 px-4 py-5 group cursor-pointer'
                         onMouseEnter={() => setBeatArrow(true)}
                         onMouseLeave={() => setBeatArrow(false)}>
                   <div className='h-32 w-80 rounded-lg mb-2 bg-primary bg-center duration-500 bg-[length:350px] group-hover:bg-[length:450px]'/>
@@ -82,31 +60,61 @@ function App() {
             </div>
           </div>
         </section>
-        <div className='p-12 bg-yellow-50'>
-          <div className='grid grid-cols-3 gap-12'>
-            {dataFlowers.map((flower) => (
-              <div className='h-[50vh] relative group bg-cover cursor-pointer' style={{backgroundImage: "url(" + flower.image + ")"}} key={flower.id}>
-                <div className='bg-yellow-100 opacity-0 absolute inset-0 group-hover:opacity-80 duration-300'>
-                </div>
-                <div className='absolute inset-0 opacity-0 group-hover:opacity-100 flex flex-col justify-end p-8 duration-700'>
-                  <div className='font-bold text-xl'>
-                    {flower.name}
-                  </div>
-                  <div className='text-md'>
-                    {flower.basic_information}
-                  </div>
-                  <div className='text-md'>
-                    <span className='font-bold'>Sun : </span>{flower.sun}
-                  </div>
-                  <div className='text-md'>
-                    <span className='font-bold'>Soil Needs : </span>{flower.soil_needs}
-                  </div>
-                  <div className='text-md'>
-                    <span className='font-bold'>Bloons In : </span>{flower.blooms_in}
-                  </div>
-                </div>
+        <div className='py-20 px-72 bg-emerald-600 text-white font font-medium text-center'>
+          <h4 className='text-4xl font-playfair leading-snug'>We blend nature's beauty with artistic flair to bring you the finest blooms for your special moments. Explore our collections and find the perfect arrangement for every occasion</h4>
+        </div>
+        <div className='p-12 bg-yellow-50 flex gap-20 items-center'>
+          <div className='font-medium'>
+            <div>
+              TYPE OF BOUQUET
+            </div>
+            <div className='text-6xl font-medium font-playfair leading-tight'>
+              <h3>Find your perfect</h3>
+              <h3>bouquet flower</h3>
+            </div>
+            <div className='mt-4'>
+              <button className='py-4 px-8 bg-amber-500 rounded-lg text-white font-sans text-lg font-semibold hover:drop-shadow-xl hover:bg-amber-400 duration-300'>Get Bouquet</button>
+            </div>
+          </div>
+          <div className='flex gap-3'>
+            <div className='w-72 h-80 skew-x-6 hover:skew-y-3 hover:drop-shadow-xl duration-300 relative overflow-hidden'>
+              <div className='absolute -inset-6 hover:-skew-y-3 duration-300 -skew-x-6 bg-cover' style={{backgroundImage: 'url("https://cdn11.bigcommerce.com/s-lzx6le/images/stencil/1280x280/products/1241/2902/167398L__04164.1557610883.jpg?c=2")'}}>
               </div>
-            ))}
+            </div>
+            <div className='w-72 h-80 skew-x-6 hover:skew-y-3 hover:drop-shadow-xl duration-300 relative overflow-hidden'>
+              <div className='absolute -inset-6 hover:-skew-y-3 duration-300 -skew-x-6 bg-cover' style={{backgroundImage: 'url("https://cdn11.bigcommerce.com/s-lzx6le/images/stencil/1280x280/products/1241/2902/167398L__04164.1557610883.jpg?c=2")'}}>
+              </div>
+            </div>
+            <div className='w-72 h-80 skew-x-6 hover:skew-y-3 hover:drop-shadow-xl duration-300 relative overflow-hidden'>
+              <div className='absolute -inset-6 hover:-skew-y-3 duration-300 -skew-x-6 bg-cover' style={{backgroundImage: 'url("https://cdn11.bigcommerce.com/s-lzx6le/images/stencil/1280x280/products/1241/2902/167398L__04164.1557610883.jpg?c=2")'}}>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='h-96 bg-emerald-900'>
+          <div className="footer-content">
+              <div className="about-us">
+                  <h3>About Us</h3>
+                  <p>[Your Flower Shop] is dedicated to delivering the freshest blooms and the finest arrangements for every special occasion.</p>
+              </div>
+              <div className="quick-links">
+                  <h3>Quick Links</h3>
+                  <ul>
+                      <li><a href="/shop">Shop</a></li>
+                      <li><a href="/about">About Us</a></li>
+                      <li><a href="/contact">Contact</a></li>
+                      <li><a href="/blog">Blog</a></li>
+                  </ul>
+              </div>
+              <div className="social-media">
+                  <h3>Follow Us</h3>
+                  <a href="#"><img src="path-to-facebook-icon.png" alt="Facebook"/></a>
+                  <a href="#"><img src="path-to-instagram-icon.png" alt="Instagram"/></a>
+                  <a href="#"><img src="path-to-twitter-icon.png" alt="Twitter"/></a>
+              </div>
+          </div>
+          <div className="footer-bottom">
+              <p>&copy; 2024 [Your Flower Shop]. All rights reserved.</p>
           </div>
         </div>
       </div>

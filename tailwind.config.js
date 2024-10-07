@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        "playfair": ['Playfair', 'serif']
+      },
       backgroundImage: {
         'primary': "url('/src/assets/base-backround.jpg')",
       }
