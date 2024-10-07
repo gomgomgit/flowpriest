@@ -2,7 +2,7 @@ import './App.css'
 // import logo from './assets/lotus-flower-svgrepo-com.svg'
 import Navbar from './layouts/navbar'
 
-import { FlowerOutline } from 'react-ionicons'
+import { Flower, FlowerOutline } from 'react-ionicons'
 import { useState } from 'react'
 
 function App() {
@@ -34,9 +34,9 @@ function App() {
                       </div>
                       <div>
                         <FlowerOutline
-                          color={'#00000'}
-                          height="45px"
-                          width="45px"
+                          color={'#fff'}
+                          height="40px"
+                          width="40px"
                           rotate={rotate}
                         />
                       </div>
@@ -61,7 +61,19 @@ function App() {
               <h3>bouquet flower</h3>
             </div>
             <div className='mt-4'>
-              <button className='py-4 pl-8 pr-12 bg-amber-500 rounded-e-full text-white font-sans text-lg font-semibold hover:drop-shadow-xl hover:bg-amber-400 duration-300'>Get Bouquet</button>
+              <button className='flex py-4 pl-6 pr-10 bg-amber-500 rounded-e-full text-white font-sans text-lg font-semibold hover:drop-shadow-xl hover:bg-amber-400 duration-300'
+              onMouseEnter={() => setRotate(true)}
+              onMouseLeave={() => setRotate(false)}>
+                <Flower
+                  color={'#fff'}
+                  height="30px"
+                  width="30px"
+                  rotate={rotate}
+                />
+                <span className='pl-4'>
+                  Get Bouquet
+                </span>
+              </button>
             </div>
           </div>
           <div className='flex gap-3'>
