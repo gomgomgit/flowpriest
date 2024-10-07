@@ -2,12 +2,12 @@ import './App.css'
 // import logo from './assets/lotus-flower-svgrepo-com.svg'
 import Navbar from './layouts/navbar'
 
-import { ArrowForwardCircleOutline } from 'react-ionicons'
+import { FlowerOutline } from 'react-ionicons'
 import { useState } from 'react'
 
 function App() {
 
-  const [beatArrow, setBeatArrow] = useState(false)
+  const [rotate, setRotate] = useState(false)
 
   return (
     <>
@@ -24,8 +24,8 @@ function App() {
               <div>
                 <a href="/flowers">
                   <div className='rounded-xl bg-slate-500/65 hover:bg-slate-400/80 hover:drop-shadow-lg duration-500 px-4 py-5 group cursor-pointer'
-                          onMouseEnter={() => setBeatArrow(true)}
-                          onMouseLeave={() => setBeatArrow(false)}>
+                          onMouseEnter={() => setRotate(true)}
+                          onMouseLeave={() => setRotate(false)}>
                     <div className='h-32 w-80 rounded-lg mb-2 bg-primary bg-center duration-500 bg-[length:350px] group-hover:bg-[length:450px]'/>
                     <div className='text-white flex justify-between items-center'>
                       <div>
@@ -33,11 +33,11 @@ function App() {
                         <p className='text-sm'>get your favorites flowers</p>
                       </div>
                       <div>
-                        <ArrowForwardCircleOutline
+                        <FlowerOutline
                           color={'#00000'}
                           height="45px"
                           width="45px"
-                          beat={beatArrow}
+                          rotate={rotate}
                         />
                       </div>
                     </div>
