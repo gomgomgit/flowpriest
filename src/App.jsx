@@ -1,5 +1,6 @@
 import './App.css'
 import logo from './assets/lotus-flower-svgrepo-com.svg'
+import floLine from './assets/flo-line.svg'
 import Navbar from './layouts/navbar'
 
 import { Flower, FlowerOutline } from 'react-ionicons'
@@ -48,8 +49,9 @@ function App() {
             </div>
           </div>
         </section>
-        <div className='py-20 px-72 bg-emerald-600 text-white font font-medium text-center'>
-          <h4 className='text-4xl font-playfair leading-snug'>We blend nature's beauty with artistic flair to bring you the finest blooms for your special moments. Explore our collections and find the perfect arrangement for every occasion</h4>
+        <div className='py-28 px-72 bg-emerald-600 text-white font font-medium text-center relative'>
+          <img className='absolute inset-x-0 inset-y-12 z-10' src={floLine} alt="" />
+          <h4 className='text-4xl font-playfair leading-snug relative z-30'>We blend nature's beauty with artistic flair to bring you the finest blooms for your special moments. Explore our collections and find the perfect arrangement for every occasion</h4>
         </div>
         <div className='pl-16 pr-12 py-16 bg-yellow-50 flex gap-20 items-center justify-between'>
           <div className='font-medium'>
