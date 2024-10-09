@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "street": "Jl Lengkong Kecil 86 Bandung, Jawa Barat",
+    "city": "Jawa Barat",
+    "state_province_area": "Bandung",
+    "phone_number": "0-22-421-6339",
+    "zip_code": "40261"
+  },
+  {
+    "id": 2,
+    "street": "Jl Pasar Pagi Raya 39, Dki Jakarta",
+    "city": "Dki Jakarta",
+    "state_province_area": "Jakarta",
+    "phone_number": "0-21-692-3153",
+    "zip_code": "11230"
+  },
+  {
+    "id": 3,
+    "street": "Jl Singa I/5, Sulawesi Selatan",
+    "city": "Sulawesi Selatan",
+    "state_province_area": "Makassar",
+    "phone_number": "0-411-85-6710",
+    "zip_code": "90135"
+  },
+  {
+    "id": 4,
+    "street": "Jl Surakarta 79, Sumatera Utara",
+    "city": "Sumatera Utara",
+    "state_province_area": "Medan",
+    "phone_number": "0-61-457-0514",
+    "zip_code": "20212"
+  },
+  {
+    "id": 5,
+    "street": "Jl Cisanggiri V 3, Dki Jakarta",
+    "city": "Dki Jakarta",
+    "state_province_area": "Jakarta",
+    "phone_number": "0-21-739-3623",
+    "zip_code": "12170"
+  },
+  {
+    "id": 6,
+    "street": "Jl Bukit Duri Tanjakan 1 38, Dki Jakarta",
+    "city": "Dki Jakarta",
+    "state_province_area": "Jakarta",
+    "phone_number": "0-21-830-9559",
+    "zip_code": "12840"
+  },
+  {
+    "id": 7,
+    "street": "Jl Letjen Haryono MT 644 A, Jawa Tengah",
+    "city": "Jawa Tengah",
+    "state_province_area": "Semarang",
+    "phone_number": "0-24-354-4949",
+    "zip_code": "50124"
+  },
+  {
+    "id": 8,
+    "street": "Jl Argopuro 65, Jawa Timur",
+    "city": "Jawa Timur",
+    "state_province_area": "Surabaya",
+    "phone_number": "0-31-532-5975",
+    "zip_code": "60251"
+  },
+  {
+    "id": 9,
+    "street": "Jl Hayam Wuruk Glodok Baru Harco Bl B-III/114 Lt III, Dki Jakarta",
+    "city": "Dki Jakarta",
+    "state_province_area": "Jakarta",
+    "phone_number": "0-21-649-8287",
+    "zip_code": "11180"
+  },
+  {
+    "id": 10,
+    "street": "Jl Wisnu Warman 18, Jawa Barat",
+    "city": "Jawa Barat",
+    "state_province_area": "Bandung",
+    "phone_number": "0-22-542-2275",
+    "zip_code": "40238"
+  },
+  {
+    "id": 11,
+    "street": "Kompl Pelangi RT 05/04, Dki Jakarta",
+    "city": "Dki Jakarta",
+    "state_province_area": "Jakarta",
+    "phone_number": "0-21-819-4010",
+    "zip_code": "13610"
+  },
+  {
+    "id": 12,
+    "street": "Jl Terminal Lintas Andalas, Sumatera Barat",
+    "city": "Sumatera Barat",
+    "state_province_area": "Padang",
+    "phone_number": "075-1-3-9124",
+    "zip_code": "25126"
+  }
+]

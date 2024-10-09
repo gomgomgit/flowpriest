@@ -14,7 +14,7 @@ function Navbar({type}) {
         <div className='text-white font-semibold flex gap-8'>
           <p className='cursor-pointer border-b-2 border-transparent hover:border-amber-500 hover:text-amber-500 duration-300'><a href="/">Home</a></p>
           <p className='cursor-pointer border-b-2 border-transparent hover:border-amber-500 hover:text-amber-500 duration-300'><a href="/flowers">Variations</a></p>
-          <p className='cursor-pointer border-b-2 border-transparent hover:border-amber-500 hover:text-amber-500 duration-300'><a href="/">Store</a></p>
+          <p className='cursor-pointer border-b-2 border-transparent hover:border-amber-500 hover:text-amber-500 duration-300'><a href="/stores">Store</a></p>
           <p className='cursor-pointer border-b-2 border-transparent hover:border-amber-500 hover:text-amber-500 duration-300'><a href="/">About</a></p>
           <p className='cursor-pointer border-b-2 border-transparent hover:border-amber-500 hover:text-amber-500 duration-300'><a href="/">Contact</a></p>
         </div>

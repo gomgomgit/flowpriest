@@ -1,6 +1,9 @@
 import { useEffect, useState } from 'react';
 import './App.css'
 import Navbar from './layouts/navbar'
+import Footer from './layouts/footer'
+import flo2Line from './assets/flo2-line.svg'
+
 
 function Flowers() {
   
@@ -39,21 +42,24 @@ function Flowers() {
                   <div className='h-[50vh] relative group bg-cover cursor-pointer' style={{backgroundImage: "url(" + flower.image + ")"}} key={flower.id}>
                     <div className='bg-yellow-100 opacity-0 absolute inset-0 group-hover:opacity-80 duration-300'>
                     </div>
-                    <div className='absolute inset-0 opacity-0 group-hover:opacity-100 flex flex-col justify-end p-8 duration-700'>
-                      <div className='font-bold text-xl'>
-                        {flower.name}
-                      </div>
-                      <div className='text-md'>
-                        {flower.basic_information}
-                      </div>
-                      <div className='text-md'>
-                        <span className='font-bold'>Sun : </span>{flower.sun}
-                      </div>
-                      <div className='text-md'>
-                        <span className='font-bold'>Soil Needs : </span>{flower.soil_needs}
-                      </div>
-                      <div className='text-md'>
-                        <span className='font-bold'>Bloons In : </span>{flower.blooms_in}
+                    <div className='absolute inset-0 opacity-0 group-hover:opacity-100 flex flex-col justify-end p-8 duration-700 overflow-hidden'>
+                      <img className='absolute right-6 top-6 h-full' src={flo2Line} alt="" />
+                      <div className='z-10'>
+                        <div className='font-bold text-xl'>
+                          {flower.name}
+                        </div>
+                        <div className='text-md'>
+                          {flower.basic_information}
+                        </div>
+                        <div className='text-md'>
+                          <span className='font-bold'>Sun : </span>{flower.sun}
+                        </div>
+                        <div className='text-md'>
+                          <span className='font-bold'>Soil Needs : </span>{flower.soil_needs}
+                        </div>
+                        <div className='text-md'>
+                          <span className='font-bold'>Bloons In : </span>{flower.blooms_in}
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -62,6 +68,7 @@ function Flowers() {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   )
